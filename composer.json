@@ -1,13 +1,38 @@
 {
     "name": "gause/laravel-featurer",
     "description": "Laravel package providing developer to deploy features without hasitation.",
+    "keywords": [
+        "gause",
+        "feature",
+        "featurer",
+        "laravel"
+    ],
     "type": "library",
     "license": "MIT",
     "authors": [
         {
             "name": "Jakub Gause",
-            "email": "gause.jakub@gmail.com"
+            "email": "gause.jakub@gmail.com",
+            "role": "Developer"
         }
     ],
-    "require": {}
+    "require": {
+        "php": "^7.4"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.0",
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Gause\\Featurer\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    },
+    "config": {
+        "sort-packages": true
+    }
 }
