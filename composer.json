@@ -1,0 +1,13 @@
+{
+    "name": "gause/laravel-featurer",
+    "description": "Laravel package providing developer to deploy features without hasitation.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jakub Gause",
+            "email": "gause.jakub@gmail.com"
+        }
+    ],
+    "require": {}
+}
